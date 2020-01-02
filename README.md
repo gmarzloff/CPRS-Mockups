@@ -4,7 +4,7 @@
 ## Introduction
 The Department of Veterans Affairs uses the electronic medical record system [VistA](https://en.wikipedia.org/wiki/VistA) with Computerized Patient Record System (CPRS) as the graphical user interface. Custom menus can be created with the help of the Clinical Applications team. The development process can be more efficient with the use of mockups to visually show what is requested in CPRS. 
 
-Here I use HTML and CSS
+Here I use HTML and CSS to quickly create mockups rendered in Google Chrome. Besides a text editor (even Notepad works), no special software is needed and these can be created on VA computers. 
 
 ## Step-by-step building
 
