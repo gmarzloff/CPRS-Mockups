@@ -215,5 +215,7 @@ Unordered lists that are children of a column `li` have a more compact layout fo
 
 Templates can be used as targets for menu options, consult structures, etc. View the [templates.html](templates.html) file to see the finished example. It makes use of CSS classes to adjust formatting of the html. 
 
+![Template](screenshots/cprs-template.png)
+
 ### Disclaimer
 This repository is not associated with the Department of Veterans Affairs. 
