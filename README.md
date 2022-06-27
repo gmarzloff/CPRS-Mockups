@@ -6,7 +6,7 @@ The Department of Veterans Affairs uses the electronic medical record system [Vi
 
 Here I use HTML and CSS to quickly create mockups rendered in Google Chrome. Besides a text editor (even Notepad works), no special software is needed and these can be created on VA computers. 
 
-## Step-by-step building
+## Step-by-step building a Menu Pane
 
 ### Create a blank pane
 ```html
@@ -210,6 +210,10 @@ Unordered lists that are children of a column `li` have a more compact layout fo
 </div>
 ```
 ![Pane 8](screenshots/pane08.png)
+
+## Building a Template
+
+Templates can be used as targets for menu options, consult structures, etc. View the [templates.html](templates.html) file to see the finished example. It makes use of CSS classes to adjust formatting of the html. 
 
 ### Disclaimer
 This repository is not associated with the Department of Veterans Affairs. 

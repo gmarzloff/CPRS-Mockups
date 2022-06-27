@@ -4,9 +4,123 @@
         <link href="cprs.css" type="text/css" rel="stylesheet"/ >
     </head>
     <body>
-
+        <h1>CPRS Mockup - Template Window Example</h1>
         <div class="cprs-pane template">
             <h1>Template: Consult Form</h1>
+
+            <div class="template-header clearfix">
+                <span class="left">All Required Fields have Values</span>
+                <span class="button-group">
+                    <button>First</button>
+                    <button>&lt;Prev</button>
+                    <button>Next&gt;</button>
+                    <button>Last</button>
+                </span>
+            </div>
+
+
+            <div class="template-container">
+                <div>
+                    <input type="checkbox" /> SCI/D CENTER CONSULT INPATIENT
+
+                    <ul>
+                        <li>
+                            <div>
+                                <input type="radio" name="diagnosis-type" /> 
+                                DIAGNOSIS A - Can put a description here about this radio item.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <input type="radio" name="diagnosis-type" /> 
+                                DIAGNOSIS B - Can put a description here about this radio item.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <input type="radio" name="diagnosis-type" /> 
+                                DIAGNOSIS C - Can put a description here about this radio item. 
+                            </div>
+                        </li>
+
+
+
+                                <div class="freetext">Brief history of the present issue(s), consult question. *** <br />
+                                    <textarea cols="80" rows="3"></textarea>
+                                </div>
+                            </div>                                
+
+                            <div>
+                                <input type="checkbox" /> Veteran has expressed interest and/or willingness to participate in proposed treatment. *** 
+                                <input type="radio" name="participateyesno"> Yes <input type="radio" name="participateyesno"> No
+                            </div>
+
+                            <div class="top-padding">
+                                <input type="checkbox" /> Select one:<br />
+                                <div class="indent1">
+                                    <input type="radio" name="newpt"> New patient to RMR VAMC<br />
+                                    <input type="radio" name="newpt"> Returning patient to RMR VAMC
+                                </div>
+                            </div>
+
+                            <div class="top-padding">
+                                <input type="checkbox" /> Referral Type:<br />
+                                <div class="indent1">
+                                    <input type="radio" name="referral">Department of Defense<br />
+                                    <input type="radio" name="referral">Acute Rehabilitation<br />
+                                    <input type="radio" name="referral">Sustaining Care<br />
+                                        <div class="indent1">
+                                            <input type="checkbox" >Subacute Rehabilitation<br /> 
+                                            <input type="checkbox">Wound Management<br /> 
+                                            <input type="checkbox">Interdisciplinary Team Evaluation<br />
+                                            <input type="checkbox">Other<br />
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="freetext">
+                                <input type="checkbox" />Acknowledge: Patient must have imaging studies (MRI preferable) available in Impax.
+                            </div>
+                            
+                            <div class="freetext">
+                                <input type="checkbox" />Veteran has ongoing respiratory needs:
+                                <textarea cols="80" rows="3"></textarea><br />
+                            </div>
+
+                            <div class="freetext">
+
+                                <input type="checkbox" />Goal for discharge destination:<br />
+                                <div class="indent1">
+                                    <input type="radio" name="dc">Home<br />
+                                    <input type="radio" name="dc">Group Residence<br />
+                                    <input type="radio" name="dc">Independent Living Community<br />
+                                    <input type="radio" name="dc">Assisted Living Community<br />
+                                    <input type="radio" name="dc">Skilled Nursing Facility<br />
+                                    <input type="radio" name="dc">Contract Nursing Home<br />
+                                    <input type="radio" name="dc">Return to Referring VA/Spoke site<br />
+                                    <input type="radio" name="dc">Medical Foster Home<br />
+                                    <input type="radio" name="dc">Other<br />
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <!-- <li>
+                            <div>
+                                <input type="radio" name="diagnosis-type" /> AMYOTROPHIC LATERAL SCLEROSIS (ALS) - Inpatient
+                            </div>
+                        </li>
+
+                         -->
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
         </div>
     </body>
     </html>
